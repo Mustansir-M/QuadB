@@ -1,0 +1,75 @@
+.primary-title {
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.primary-button {
+    /* color: rgb(0, 0, 0); */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    /* background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64)); */
+    background: rgb(235, 35, 35);
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    /* display: block;
+    margin: 0 auto; */
+    /* margin-top: 20px; */
+}
+
+.primary-button:hover {
+    background: linear-gradient(260deg, rgb(254, 48, 114), rgb(255, 89, 64));
+
+    
+}
+
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url('https://wallpaperaccess.com/full/5132250.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    /* margin-top: 30vh; */
+    text-align: center;
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .primary-title {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+  
+    .primary-button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    .primary-title {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+  
+    .primary-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
